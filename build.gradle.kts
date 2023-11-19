@@ -7,6 +7,10 @@ plugins {
 	kotlin("plugin.spring") version "1.9.20"
 }
 
+dependencies{
+	implementation("com.pusher:pusher-http-java:1.0.0")
+}
+
 group = "com.jz"
 version = "0.0.1-SNAPSHOT"
 
